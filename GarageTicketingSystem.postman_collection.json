@@ -1,0 +1,248 @@
+{
+	"info": {
+		"_postman_id": "6b3433a0-9e65-45f5-afa3-d4a9104694fe",
+		"name": "GarageTicketingSystem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Park Grey Truck",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/garage/park/Truck?color=Grey&plate=01-AB-1234",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"garage",
+						"park",
+						"Truck"
+					],
+					"query": [
+						{
+							"key": "color",
+							"value": "Grey"
+						},
+						{
+							"key": "plate",
+							"value": "01-AB-1234"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Park Blue Car",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/garage/park/Car?color=Blue&plate=35-VF-4556",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"garage",
+						"park",
+						"Car"
+					],
+					"query": [
+						{
+							"key": "color",
+							"value": "Blue"
+						},
+						{
+							"key": "plate",
+							"value": "35-VF-4556"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Leave Grey Truck",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/garage/leave/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"garage",
+						"leave",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Park White Truck",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/garage/park/Truck?color=White&plate=34-CD-2222",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"garage",
+						"park",
+						"Truck"
+					],
+					"query": [
+						{
+							"key": "color",
+							"value": "White"
+						},
+						{
+							"key": "plate",
+							"value": "34-CD-2222"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Park Black Car",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/garage/park/Car?color=White&plate=45-HT-6655",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"garage",
+						"park",
+						"Car"
+					],
+					"query": [
+						{
+							"key": "color",
+							"value": "White"
+						},
+						{
+							"key": "plate",
+							"value": "45-HT-6655"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Leave White Car",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/garage/leave/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"garage",
+						"leave",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8083/garage/status",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"garage",
+						"status"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
