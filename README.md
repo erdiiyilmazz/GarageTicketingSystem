@@ -4,10 +4,10 @@ REST Controller that allows implementing park, leave and status actions for the 
 
 ### System Features
 
-JDK 1.8
-Spring Boot 2.6.3
-Maven 3.6.3
-Default Port 8083
+JDK 1.8__
+Spring Boot 2.6.3__
+Maven 3.6.3__
+Default Port 8083__
 
 ### Build
 
